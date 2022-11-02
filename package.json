@@ -35,7 +35,7 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.8",
-    "husky": "^8.0.1",
+    "husky": "^8.0.0",
     "lint-staged": "^13.0.3",
     "postcss": "^8.4.17",
     "prettier": "^2.7.1",
@@ -53,15 +53,15 @@
     }
   },
   "author": {
-    "email": "crisemcr@gmail.com",
-    "name": "Cristian Crețu",
-    "url": "https://cretu.dev"
+    "email": "info@federicomengascini.com",
+    "name": "Federico Mengascini",
+    "url": "https://federicomengascini.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cristicretu/ts-next-tailwind-template/issues"
+    "url": "https://github.com/"
   },
-  "homepage": "https://template.cretu.dev",
+  "homepage": "https://plexpy.com",
   "browserslist": {
     "production": [
       ">0.2%",
