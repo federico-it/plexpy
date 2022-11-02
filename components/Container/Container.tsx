@@ -63,47 +63,25 @@ export default function Container(props: any) {
           )}
         </Head>
 
-        <nav className='sticky w-full bg-gray-100/40 z-[1] filter-blur dark:bg-gray-1000/40 top-2 md:top-4 max-w-2xl px-4 py-2 rounded-md mx-auto flex justify-between items-center'>
-          <div className='flex flex-row gap-4 text-tertiary'>
+        <nav className='sticky w-full bg-gray-100/40 z-[1] filter-blur dark:bg-gray-1000/40 top-2 md:top-4 max-w-6xl px-4 py-2 rounded-md mx-auto flex justify-between items-center'>
+          <div className='flex flex-row gap-6 text-tertiary'>
             <Link href='/'>
-              <a className='transition-all cursor-pointer hover:text-primary'>
+              <a className='transition-all uppercase font-extrabold cursor-pointer hover:text-primary'>
                 Home
               </a>
             </Link>
             <Link href='/tutorial'>
-              <a className='transition-all cursor-pointer hover:text-primary'>
+              <a className='transition-all  uppercase font-extrabold  cursor-pointer hover:text-primary'>
                 Tutorial
               </a>
             </Link>
             <Link href='mailto:info@federicomengascini.com'>
-              <a className='transition-all cursor-pointer hover:text-primary'>
+              <a className='transition-all uppercase font-extrabold cursor-pointer hover:text-primary'>
                 Contacts
               </a>
             </Link>
           </div>
           <div className='flex flex-row items-center space-x-4'>
-            <a
-              href='https://instagram.com/federicomengascini/'
-              className='visible'
-              target='_blank'
-              rel='noreferrer'
-              aria-label='Instagram'
-            >
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                width='32'
-                height='32'
-                viewBox='0 0 24 24'
-                className='text-gray-900 transition-all duration-500 fill-current dark:text-white dark:text-opacity-40 dark:hover:text-opacity-100 text-opacity-40 hover:text-opacity-100 '
-              >
-                <path
-                  d='M16,4H8C5.791,4,4,5.791,4,8v8c0,2.209,1.791,4,4,4h8c2.209,0,4-1.791,4-4V8C20,5.791,18.209,4,16,4z M12,16c-2.209,0-4-1.791-4-4c0-2.209,1.791-4,4-4s4,1.791,4,4C16,14.209,14.209,16,12,16z'
-                  opacity='.3'
-                />
-                <path d='M16,3H8C5.243,3,3,5.243,3,8v8c0,2.757,2.243,5,5,5h8c2.757,0,5-2.243,5-5V8C21,5.243,18.757,3,16,3z M19,16c0,1.654-1.346,3-3,3H8c-1.654,0-3-1.346-3-3V8c0-1.654,1.346-3,3-3h8c1.654,0,3,1.346,3,3V16z' />
-                <path d='M12 7c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5S14.757 7 12 7zM12 15c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.346 3 3S13.654 15 12 15zM17 6A1 1 0 1 0 17 8 1 1 0 1 0 17 6z' />
-              </svg>
-            </a>
             <button
               aria-label='Toggle Dark Mode'
               type='button'
@@ -144,7 +122,7 @@ export default function Container(props: any) {
         <main
           className={cn(
             'px-4 mt-12',
-            'max-w-2xl',
+            'max-w-5xl',
             'mx-auto my-auto',
             'flex flex-col justify-center gap-12',
             'divide-y divide-gray-200 dark:divide-gray-900',
