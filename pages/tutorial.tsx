@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import YouTube from 'react-youtube'
-
 import Container from 'components/Container'
+import YoutubeEmbed from 'components/Yt/YoutubeEmbed'
 
 export default function Tutorial() {
   return (
@@ -16,7 +15,7 @@ export default function Tutorial() {
           MULTIMEDIA SERVER
         </h1>
         <br />
-        <YouTube videoId='gBUgl2dGks4'></YouTube>
+        <YoutubeEmbed embedId='gBUgl2dGks4'></YoutubeEmbed>
         <br />
         <span className='text-2xl font-bold'>INTRODUCTION</span>
         <br />
