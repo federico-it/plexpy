@@ -46,15 +46,15 @@ export default function Container(props: any) {
             content={`https://plexpy.com/${router.asPath}`}
           />
           <link rel='canonical' href={`https://plexpy.com/${router.asPath}`} />
-          <title>Federico Mengascini</title>
+          <title>PlexPy</title>
 
           <meta property='og:type' content={meta.type} />
-          <meta property='og:site_name' content='Federico Mengascini' />
+          <meta property='og:site_name' content='PlexPy' />
           <meta property='og:description' content={meta.description} />
           <meta property='og:title' content={meta.title} />
           <meta property='og:image' content={meta.image} />
           <meta name='twitter:card' content='summary_large_image' />
-          <meta name='twitter:site' content='@federicomengascini' />
+          <meta name='twitter:site' content='@plexpy' />
           <meta name='twitter:title' content={meta.title} />
           <meta name='twitter:description' content={meta.description} />
           <meta name='twitter:image' content={meta.image} />
@@ -64,7 +64,7 @@ export default function Container(props: any) {
         </Head>
 
         <nav className='sticky w-full bg-gray-100/40 z-[1] filter-blur dark:bg-gray-1000/40 top-2 md:top-4 max-w-6xl px-4 py-2 rounded-md mx-auto flex justify-between items-center'>
-          <div className='flex flex-row gap-6 text-tertiary'>
+          <div className='flex flex-row md:gap-6 gap-3 text-tertiary'>
             <Link href='/'>
               <a className='transition-all uppercase font-extrabold cursor-pointer hover:text-primary'>
                 Home
@@ -75,7 +75,12 @@ export default function Container(props: any) {
                 Tutorial
               </a>
             </Link>
-            <Link href='mailto:info@federicomengascini.com'>
+            <Link href='https://forum.plexpy.com'>
+              <a className='transition-all uppercase font-extrabold cursor-pointer hover:text-primary'>
+                Forum
+              </a>
+            </Link>
+            <Link href='/contacts'>
               <a className='transition-all uppercase font-extrabold cursor-pointer hover:text-primary'>
                 Contacts
               </a>
