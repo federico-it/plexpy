@@ -84,7 +84,7 @@ export default function Tutorial() {
           <div className='bg-green-600	 h-3 w-3 rounded-full -mt-3 ml-14'></div>
         </div>
         <div className='bg-zinc-900 max-w-2xl w-full -mt-1 h-auto rounded-b-lg dark:bg-zinc-300'>
-          <p className='mx-7 mt-7 pb-8 dark:text-black text-white'>
+          <p className='select-all mx-7 mt-7 pb-8 dark:text-black text-white'>
             sudo apt-get update <br></br> sudo apt-get upgrade
           </p>
         </div>
