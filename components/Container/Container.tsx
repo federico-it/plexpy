@@ -4,7 +4,6 @@ import { useTheme } from 'next-themes'
 import { useRouter } from 'next/dist/client/router'
 import Head from 'next/head'
 import Link from 'next/link'
-import ReactGA from 'react-ga'
 
 import Footer from 'components/Footer/Footer'
 import cn from 'lib/classNames'
@@ -13,8 +12,7 @@ import cn from 'lib/classNames'
 export default function Container(props: any) {
   const [mounted, setMounted] = useState<boolean>(false)
   const { resolvedTheme, setTheme } = useTheme()
-  ReactGA.initialize('UA-64177570-10')
-  ReactGA.pageview(window.location.pathname + window.location.search)
+
   const { children, ...customMeta } = props
   const router = useRouter()
 
