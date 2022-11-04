@@ -1,17 +1,10 @@
 /* eslint-disable no-console */
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 
 import emailjs from '@emailjs/browser'
-import { BUILD_MANIFEST } from 'next/dist/shared/lib/constants'
 import { useForm } from 'react-hook-form'
 
 export const ContactUs = () => {
-  const cancelCourse = () => {
-    this.form.reset()
-  }
-  const cancelForm = () => {
-    document.getElementById('bua').className += ' hidden'
-  }
   const {
     handleSubmit,
     register,
@@ -27,7 +20,8 @@ export const ContactUs = () => {
       )
       .then(
         result => {
-          console.log(result.text), cancelCourse, cancelForm
+          window.location.replace('/sent')
+          console.log(result.text)
         },
         error => {
           console.log(error.text)
@@ -37,7 +31,7 @@ export const ContactUs = () => {
   const form = useRef()
 
   return (
-    <form ref={form} onSubmit={handleSubmit(cancelForm)}>
+    <form ref={form} onSubmit={handleSubmit(onSubmit)}>
       <div id='bua' className='mt-3 -mb-5 ml-14'>
         <label className='dark:text-black text-white font-extrabold'>
           Name
