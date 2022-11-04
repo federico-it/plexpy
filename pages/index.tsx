@@ -35,8 +35,8 @@ export default function Home() {
 
         <div className='grid grid-cols-1'>
           <div>
-            <div className='grid grid-cols-3 text-center'>
-              <div>
+            <div className='lg:grid lg:grid-cols-3 text-center'>
+              <div className='lg:mt-0'>
                 <h1 className='text-center text-2xl font-bold'>TUTORIAL</h1>
                 <br />
                 <p className='text-1xl font-semibold'>
@@ -44,7 +44,7 @@ export default function Home() {
                   install and configure your media server.
                 </p>
               </div>
-              <div>
+              <div className='lg:mt-0 mt-14'>
                 <h1 className='text-center text-2xl font-bold'>WHY</h1>
                 <br />
                 <p className='text-1xl font-semibold'>
@@ -53,7 +53,7 @@ export default function Home() {
                   few dollars.
                 </p>
               </div>
-              <div>
+              <div className='lg:mt-0 mt-14 '>
                 <h1 className='text-center text-2xl font-bold'>NEAR FUTURE…</h1>
                 <br />
                 <p className='text-1xl font-semibold'>
