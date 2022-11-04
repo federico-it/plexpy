@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import React, { useRef } from 'react'
+import React, { useRef, useState } from 'react'
 
 import emailjs from '@emailjs/browser'
 import { useForm } from 'react-hook-form'
@@ -39,7 +39,7 @@ export const ContactUs = () => {
       </div>
       <br />
       <input
-        className='ml-14 rounded-lg h-9 mb-6 w-5/6'
+        className='ml-14 rounded-lg h-9 mb-6 w-80 md:w-5/6 lg:w-5/6'
         type='text'
         name='user_name'
         {...register('user_name', { required: true, maxLength: 30 })}
@@ -51,7 +51,7 @@ export const ContactUs = () => {
         </label>
       </div>
       <input
-        className='ml-14 rounded-lg h-9 mb-6 w-5/6'
+        className='ml-14 rounded-lg h-9 mb-6 w-80 md:w-5/6 lg:w-5/6'
         type='email'
         name='user_email'
         {...register('user_email', {
@@ -69,13 +69,13 @@ export const ContactUs = () => {
         </label>
       </div>
       <textarea
-        className='ml-14 rounded-lg h-9 mb-6 w-5/6'
+        className='ml-14 rounded-lg h-9 mb-6 w-80 md:w-5/6 lg:w-5/6'
         {...register('message', { required: true, maxLength: 300 })}
         name='message'
       />
       <br />
       <input
-        className='ml-14 mb-12 w-5/6 px-28 py-2 mx-auto text-lg font-bold text-gray-900 bg-gray-100 rounded-md dark:text-gray-100 dark:bg-gray-800'
+        className='ml-14 mb-12 mr-14 w-80 md:w-5/6 lg:w-5/6 px-28 py-2 mx-auto text-lg font-bold text-gray-900 bg-gray-100 rounded-md dark:text-gray-100 dark:bg-gray-800'
         type='submit'
         value='Send Message 📨'
       />
