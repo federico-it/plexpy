@@ -45,6 +45,12 @@ export default function Container(props: any) {
         )}
       >
         <Head>
+          <script
+            defer
+            data-domain='plexpy.com'
+            src='https://an.fede.me/js/plausible.js'
+          ></script>
+
           <meta name='robots' content='follow, index' />
           <meta
             property='og:url'
