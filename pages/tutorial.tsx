@@ -10,7 +10,7 @@ export default function Tutorial() {
       <div className='flex flex-col items-center justify-center w-fit inset-0'>
         <img
           className='w-3/5'
-          src='https://pbs.twimg.com/media/DkfQk96U8AIed9s?format=png&name=4096x4096'
+          src='https://plexpy.com/static/DkfQk96U8AIed9s.png'
           alt='Test'
         />
         <h1 className='text-3xl text-center font-extrabold tracking-tight '>

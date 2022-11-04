@@ -49,6 +49,11 @@ export default function Container(props: any) {
           <title>PlexPy</title>
 
           <meta property='og:type' content={meta.type} />
+          <meta
+            id='meta-description'
+            name='description'
+            content='Create your inexpensive media server in a few simple steps. Install Plex on your Raspberry Pi. Follow the tutorial now.'
+          />
           <meta property='og:site_name' content='PlexPy' />
           <meta property='og:description' content={meta.description} />
           <meta property='og:title' content={meta.title} />
