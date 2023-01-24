@@ -1,5 +1,5 @@
 /* eslint-disable no-console */
-import React, { useRef, useState } from 'react'
+import React, { useRef } from 'react'
 
 import emailjs from '@emailjs/browser'
 import { useForm } from 'react-hook-form'
@@ -10,6 +10,7 @@ export const ContactUs = () => {
     register,
     formState: { errors },
   } = useForm()
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const onSubmit = data => {
     emailjs
       .sendForm(
