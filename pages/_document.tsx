@@ -42,13 +42,13 @@ class MyDocument extends Document {
           />
           <meta
             name='theme-color'
-            content='#ffffff'
             media='(prefers-color-scheme: light)'
+            content='#ffffff'
           />
           <meta
             name='theme-color'
-            content='#171717'
             media='(prefers-color-scheme: dark)'
+            content='#171717'
           />
         </Head>
         <body className='bg-white dark:bg-gray-900'>
