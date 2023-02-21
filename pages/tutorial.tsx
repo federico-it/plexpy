@@ -255,7 +255,7 @@ export default function Tutorial() {
             <Image
               width={190}
               height={50}
-              src='https://pay.itashare.com/img/paybutton/pay.svg'
+              src='https://plexpy.com/static/pay.svg'
             ></Image>
           </a>
         </Link>
@@ -265,7 +265,7 @@ export default function Tutorial() {
             <Image
               width={90}
               height={45}
-              src='https://www.bitmat.it/wp-content/uploads/2021/05/PayPal.png'
+              src='https://plexpy.com/static/PayPal.png'
             ></Image>
           </a>
         </Link>
