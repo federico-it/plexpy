@@ -1,5 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Image from 'next/image'
+import Link from 'next/link'
+
 import Button from 'components/Button'
 import Container from 'components/Container'
 import YoutubeEmbed from 'components/Yt/YoutubeEmbed'
@@ -240,6 +243,32 @@ export default function Tutorial() {
         </p>
         <br />
         <Button></Button>
+        <br />
+        <p className=' text-center font-extrabold text-transform: uppercase '>
+          If it was useful to you and if you want, donate me now. <br />
+          <br />
+          Thank you
+        </p>
+        <br />
+        <Link href='https://pay.itashare.com/api/v1/invoices?storeId=2NWv45MfVpL1jtzNt8V7QZCbt8sdXhs4pGbrF8oB5JHq&notifyEmail=fedecor%40protonmail.com&currency=EUR'>
+          <a className=''>
+            <Image
+              width={190}
+              height={50}
+              src='https://pay.itashare.com/img/paybutton/pay.svg'
+            ></Image>
+          </a>
+        </Link>
+        <br />
+        <Link href='https://www.paypal.com/donate/?hosted_button_id=HY8Q7N4A3T3SN'>
+          <a className='bg-amber-400 rounded-md px-12'>
+            <Image
+              width={90}
+              height={45}
+              src='https://www.bitmat.it/wp-content/uploads/2021/05/PayPal.png'
+            ></Image>
+          </a>
+        </Link>
       </div>
     </Container>
   )
