@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 
 import Image from 'next/image'
@@ -269,7 +270,7 @@ export default function Tutorial() {
         </Link>
         <br />
         <p className=' text-2xl text-center font-extrabold text-transform: uppercase '>
-          Thank You <br />
+          Thank You 💜 <br />
         </p>
       </div>
     </Container>
