@@ -244,10 +244,8 @@ export default function Tutorial() {
         <br />
         <Button></Button>
         <br />
-        <p className=' text-center font-extrabold text-transform: uppercase '>
+        <p className=' text-2xl text-center font-extrabold text-transform: uppercase '>
           If it was useful to you and if you want, donate me now. <br />
-          <br />
-          Thank you
         </p>
         <br />
         <Link href='https://pay.itashare.com/api/v1/invoices?storeId=2NWv45MfVpL1jtzNt8V7QZCbt8sdXhs4pGbrF8oB5JHq&notifyEmail=fedecor%40protonmail.com&currency=EUR'>
@@ -269,6 +267,10 @@ export default function Tutorial() {
             ></Image>
           </a>
         </Link>
+        <br />
+        <p className=' text-2xl text-center font-extrabold text-transform: uppercase '>
+          Thank You <br />
+        </p>
       </div>
     </Container>
   )
