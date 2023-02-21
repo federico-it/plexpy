@@ -264,7 +264,7 @@ export default function Tutorial() {
             <Image
               width={90}
               height={45}
-              src='https://plexpy.com/static/PayPal.png'
+              src='https://plexpy.com/static/paypal.svg'
             ></Image>
           </a>
         </Link>
