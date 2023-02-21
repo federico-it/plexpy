@@ -22,10 +22,9 @@ export default function Container(props: any) {
   const router = useRouter()
 
   const meta = {
-    title: 'PlexPy',
+    title: 'PlexPy - Raspberry And Plex',
     description: 'Plex Media Server and Raspberry Pi',
-    image:
-      'https://cdn.discordapp.com/attachments/797485737272541250/893912493255176192/UnicornVectorGradient_7.png',
+    image: 'https://plexpy.com/static/Nuovo-progetto.png',
     type: 'website',
     ...customMeta,
   }
@@ -59,7 +58,7 @@ export default function Container(props: any) {
             name='description'
             content='Create your inexpensive media server in a few simple steps. Install Plex on your Raspberry Pi. Follow the tutorial now.'
           />
-          <meta property='og:site_name' content='PlexPy' />
+          <meta property='og:site_name' content='PlexPy - Raspberry And Plex' />
           <meta property='og:description' content={meta.description} />
           <meta property='og:title' content={meta.title} />
           <meta property='og:image' content={meta.image} />
