@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
+
+module.exports = {
   reactStrictMode: true,
   swcMinify: true,
   compress: true,
-}
-
-module.exports = {
-  nextConfig,
   images: {
     remotePatterns: [
       {
@@ -19,7 +16,7 @@ module.exports = {
       },
       {
         protocol: 'https',
-        hostname: '**.bitmat.it',
+        hostname: 'plexpy.com',
       },
     ],
   },
