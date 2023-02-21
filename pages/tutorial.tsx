@@ -245,9 +245,11 @@ export default function Tutorial() {
         <br />
         <Button></Button>
         <br />
-        <p className=' text-2xl text-center font-extrabold text-transform: uppercase '>
-          If it was useful to you and if you want, donate me now. <br />
-        </p>
+        <div className=' bg-orange-500 py-7 px-7 rounded-md'>
+          <p className=' text-2xl text-center font-extrabold text-transform: uppercase text-white dark:text-black'>
+            If it was useful to you and if you want, donate me now. <br />
+          </p>
+        </div>
         <br />
         <Link href='https://pay.itashare.com/api/v1/invoices?storeId=2NWv45MfVpL1jtzNt8V7QZCbt8sdXhs4pGbrF8oB5JHq&notifyEmail=fedecor%40protonmail.com&currency=EUR'>
           <a className=''>
