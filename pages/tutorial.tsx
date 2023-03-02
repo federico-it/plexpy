@@ -251,16 +251,6 @@ export default function Tutorial() {
           </p>
         </div>
         <br />
-        <Link href='https://pay.itashare.com/api/v1/invoices?storeId=2NWv45MfVpL1jtzNt8V7QZCbt8sdXhs4pGbrF8oB5JHq&notifyEmail=fedecor%40protonmail.com&currency=EUR'>
-          <a className=''>
-            <Image
-              width={190}
-              height={50}
-              src='https://plexpy.com/static/pay.svg'
-            ></Image>
-          </a>
-        </Link>
-        <br />
         <Link href='https://www.paypal.com/donate/?hosted_button_id=HY8Q7N4A3T3SN'>
           <a className='bg-amber-400 rounded-md px-12'>
             <Image
