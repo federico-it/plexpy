@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
+        <script defer data-domain="plexpy.com" data-api="https://ans.fedelive.workers.dev/gattino/event" src="https://ans.fedelive.workers.dev/micino/script.js"></script>
           <link
             rel='preload'
             href='/fonts/inter-var-latin.woff2'
