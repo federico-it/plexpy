@@ -14,7 +14,7 @@ export default function Tutorial() {
       <div className='flex flex-col items-center justify-center w-fit inset-0'>
         <img
           className='w-3/5'
-          src='https://plexpy.com/static/DkfQk96U8AIed9s.png'
+          src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302086/DkfQk96U8AIed9s_gxmro1'
           alt='Test'
         />
         <h1 className='text-3xl text-center font-extrabold tracking-tight '>
@@ -252,12 +252,12 @@ export default function Tutorial() {
         </div>
         <br />
         <Link href='https://www.paypal.com/donate/?hosted_button_id=HY8Q7N4A3T3SN'>
-          <a className='bg-amber-400 rounded-md px-12'>
-            <Image
+          <a className='bg-amber-400 rounded-md p-3 px-12'>
+            <img
               width={90}
               height={45}
-              src='https://plexpy.com/static/paypal.svg'
-            ></Image>
+              src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302082/paypal_vhis92'
+            ></img>
           </a>
         </Link>
         <br />

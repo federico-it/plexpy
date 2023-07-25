@@ -23,7 +23,7 @@ export default function Sent() {
         <div className=''>
           <img
             className='w-96 '
-            src='https://plexpy.com/static/love-chat-min.png'
+            src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302081/love-chat-min_nhqwsg'
             alt='Plex Screens and Raspberry Board'
           />
         </div>
