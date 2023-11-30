@@ -13,11 +13,7 @@ import cn from 'lib/classNames'
 export default function Container(props: any) {
   const [mounted, setMounted] = useState<boolean>(false)
   const { resolvedTheme, setTheme } = useTheme()
-  const TRACKING_ID = 'UA-64177570-10' // YOUR_OWN_TRACKING_ID
-  if (typeof window !== 'undefined') {
-    ReactGA.initialize(TRACKING_ID)
-    ReactGA.pageview(window.location.pathname + window.location.search)
-  }
+
   const { children, ...customMeta } = props
   const router = useRouter()
 
@@ -82,11 +78,6 @@ export default function Container(props: any) {
             <Link href='/tutorial'>
               <a className='transition-all  uppercase font-extrabold  cursor-pointer hover:text-primary'>
                 Tutorial
-              </a>
-            </Link>
-            <Link href='https://forum.plexpy.com'>
-              <a className='transition-all uppercase font-extrabold cursor-pointer hover:text-primary'>
-                Forum
               </a>
             </Link>
             <Link href='/contacts'>

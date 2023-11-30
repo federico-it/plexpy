@@ -245,25 +245,8 @@ export default function Tutorial() {
         <br />
         <Button></Button>
         <br />
-        <div className=' bg-orange-500 py-7 px-7 rounded-md'>
-          <p className=' text-2xl text-center font-extrabold text-transform: uppercase text-white dark:text-black'>
-            If it was useful to you and if you want, donate me now. <br />
-          </p>
-        </div>
+
         <br />
-        <Link href='https://www.paypal.com/donate/?hosted_button_id=HY8Q7N4A3T3SN'>
-          <a className='bg-amber-400 rounded-md px-12'>
-            <Image
-              width={90}
-              height={45}
-              src='https://plexpy.com/static/paypal.svg'
-            ></Image>
-          </a>
-        </Link>
-        <br />
-        <p className=' text-2xl text-center font-extrabold text-transform: uppercase '>
-          Thank You 💜 <br />
-        </p>
       </div>
     </Container>
   )
