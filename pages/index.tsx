@@ -10,7 +10,7 @@ export default function Home() {
         <BigText slides={['Plex', 'And', 'Raspberry Pi']} />
         <img
           className='w-full md:-mt-28'
-          src='https://plexpy.com/static/Nuovo-progetto.png'
+          src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302081/Nuovo-progetto_jkl1fv'
           alt='Plex Screens and Raspberry Board'
         />
         <br></br>
@@ -76,7 +76,7 @@ export default function Home() {
               <div className=''>
                 <img
                   className='lg:w-2/4 md:3/4 lg:ml-20 mt-20 mb-20 '
-                  src='https://plexpy.com/static/kisspng-plex-media-server-computer-icons-media-player-tv-icon-5aed5cb1246fa8.2200671815255052011493-768x768.png'
+                  src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302081/kisspng-plex-media-server-computer-icons-media-player-tv-icon-5aed5cb1246fa8.2200671815255052011493-768x768_bsmzmx'
                   alt='Plex Logo'
                 />
               </div>
@@ -128,7 +128,7 @@ export default function Home() {
               <div className=''>
                 <img
                   className='lg:w-2/4 md:3/4 lg:ml-20 mt-20 mb-20 '
-                  src='https://plexpy.com/static/Raspi-PGB001.png'
+                  src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302084/Raspi-PGB001_s1dx1b'
                   alt='Raspberry Logo'
                 />
               </div>

@@ -1,9 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 
-import Image from 'next/image'
-import Link from 'next/link'
-
 import Button from 'components/Button'
 import Container from 'components/Container'
 import YoutubeEmbed from 'components/Yt/YoutubeEmbed'
@@ -14,7 +11,7 @@ export default function Tutorial() {
       <div className='flex flex-col items-center justify-center w-fit inset-0'>
         <img
           className='w-3/5'
-          src='https://plexpy.com/static/DkfQk96U8AIed9s.png'
+          src='https://res.cloudinary.com/danog0kgs/image/upload/f_auto/q_auto/v1690302086/DkfQk96U8AIed9s_gxmro1'
           alt='Test'
         />
         <h1 className='text-3xl text-center font-extrabold tracking-tight '>
@@ -244,8 +241,6 @@ export default function Tutorial() {
         </p>
         <br />
         <Button></Button>
-        <br />
-
         <br />
       </div>
     </Container>
